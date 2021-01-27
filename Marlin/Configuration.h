@@ -112,7 +112,9 @@
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT_2 3
+// Disable, not used in newer Marlin firmware per: 
+//  https://www.reddit.com/r/3Dprinting/comments/kzmkp4/bl_touch_ender_3_v2_help/gkoyktr/?utm_source=reddit&utm_medium=web2x&context=3
+//#define SERIAL_PORT_2 3
 
 /**
  * This setting determines the communication speed of the printer.
